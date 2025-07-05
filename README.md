@@ -100,26 +100,26 @@ Enable blue‑team professionals and students to:
    - RDP into your VM, open Event Viewer → Security logs  
    - Trigger events (e.g. successful logins, policy changes) 
 
-<img src="Windows-Security-Events.png" width="500px" height="auto" alt="Windows-Security-Events"/>
+<img src="Windows-Security-Events.png" width="600px" height="auto" alt="Windows-Security-Events"/>
 
 4. **Kusto Query Language (KQL)**  
    - Run sample queries (e.g. `SecurityEvent | where EventID == 4624 | project TimeGenerated, Computer, AccountName`)  
    - Understand basic KQL operators: `where`, `project`, `parse`
 
-<img src="KQL-Queries.png" width="500px" height="auto" alt="KQL-Queries"/>
+<img src="KQL-Queries.png" width="600px" height="auto" alt="KQL-Queries"/>
      
 5. **Custom Analytic Rule**  
    - Enable Windows Audit Policy for Scheduled Task events (ID 4698)  
    - Create a scheduled task to generate a 4698 event  
    - Write & deploy a custom analytic rule in Sentinel using parsed EventData fields
 
- <img src="Analytic-Rules.png" width="500px" height="auto" alt="Analytic-Rules"/>
+ <img src="Analytic-Rules.png" width="600px" height="auto" alt="Analytic-Rules"/>
 
 6. **Map to MITRE ATT&CK**  
    - Identify the persistence tactic (TA0003) and technique (T1053.005)  
    - Review detection and mitigation guidance from MITRE
 
-    <img src="MITRE-ATT&CK.png" width="500px" height="auto" alt="MITRE ATT&CK"/>
+    <img src="MITRE-ATT&CK.png" width="600px" height="auto" alt="MITRE ATT&CK"/>
 
 </p>
 <br>
