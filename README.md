@@ -7,10 +7,10 @@
   
   <img src="AzureGuardian.png" alt="logo" width="400px" height="auto"/>
 
-  <h1>AzureGuardian is a hands-on lab project that simulates real-world threat detection using Microsoft Sentinel in Azure.</h1>
+  <h1>Welcome to AzureGuardian — Guarding Your Cloud, One Log at a Time.</h1>
   
   <p>
-  Welcome to AzureGuardian — Guarding Your Cloud, One Log at a Time.
+  AzureGuardian is a hands-on lab project that simulates real-world threat detection using Microsoft Sentinel in Azure.
   </p>
   
   
