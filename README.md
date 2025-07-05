@@ -85,7 +85,7 @@ Enable blue‑team professionals and students to:
 
 1. Lab Architecture
 
-<img src="azure-lab.png" width="700px" height="auto" alt="Network Architecture"/>
+<img src="azure-lab.png" width="500px" height="auto" alt="Network Architecture"/>
 
 2. **Setup Lab Resources**  
    - Create a free Azure account  
